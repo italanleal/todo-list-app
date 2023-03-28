@@ -100,6 +100,10 @@ h1 {
   
 }
 
+.submit-button:focus {
+  border-radius:0;
+}
+
 @media (max-width: 768px) {
   .container{
     width: 80vw;
