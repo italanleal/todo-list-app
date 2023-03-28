@@ -100,11 +100,6 @@ h1 {
   
 }
 
-.todo-input:focus {
-  outiline: none;
-  border-width: 5px;
-  border-radius: 0;
-
 }
 
 @media (max-width: 768px) {
