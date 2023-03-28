@@ -101,9 +101,7 @@ h1 {
 }
 
 .todo-input:focus {
-  border-radius: 0;
-  border-width: 2px:
-  background-color: #222;
+  outiline: none;
 
 }
 
