@@ -100,8 +100,10 @@ h1 {
   
 }
 
-.submit-button:focus {
-  border-radius:0;
+.todo-input:focus {
+  border-radius: 0;
+  border-width: 2px:
+
 }
 
 @media (max-width: 768px) {
