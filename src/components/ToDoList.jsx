@@ -1,6 +1,5 @@
 import { useToDosContext } from '../providers/TodosProvider';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
 export default function ToDoList(){
@@ -19,8 +18,7 @@ export default function ToDoList(){
                             >{todo.task}</p>
         
                         </div>
-                        <div className="todo-icons">
-                            <FontAwesomeIcon icon={faPenToSquare}/>
+                        <div className="todo-icons">
                             <FontAwesomeIcon 
                             icon={faTrash} 
                             onClick={() => removeTodo(todo.id)}
